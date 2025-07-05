@@ -366,22 +366,6 @@ h1 {
     text-decoration: underline;
 }
 
-/* Garante que nenhum outro estilo sobrescreva */
-.paragrafo a {
-    all: unset; /* Reseta estilos herdados */
-}
-
-.rodape p {
-  background: rgba(15, 23, 42, 0.8); 
-  backdrop-filter: blur(10px);
-  padding: 2rem;
-  text-align: center;
-  border-top: 1px solid var(--borda);
-  margin-top: auto;
-}
-
-
-
 /* Responsividade */
 
 @media (max-width: 1024px) {
